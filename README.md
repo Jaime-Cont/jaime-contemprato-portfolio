@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
+# Front-End Development Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my front-end development portfolio! This project showcases my skills, experience, and the projects I've worked on as a **front-end developer**. I will be updating this portfolio regularly with new projects, skills, and achievements as I grow and develop as a developer.
 
-Currently, two official plugins are available:
+## 🖥️ Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the live version of my portfolio here: [Portfolio Link](https://your-portfolio-link.com)
 
-## Expanding the ESLint configuration
+## 📑 About the Project
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This portfolio was created as a personal project to present my work and skills in front-end development, especially focusing on creating visually appealing and responsive websites. It includes information about me, projects I've developed, and the technologies I specialize in.
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠️ Technologies Used
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This project is built using:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **HTML5**: For structuring the web content.
+- **CSS3**: For styling the components and making the design responsive.
+- **React**: As the JavaScript library for building user interfaces.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📈 Future Updates
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+This portfolio is a work in progress. I plan to:
+
+- Add more projects as I work on them.
+- Continuously improve the design and user experience.
+- Implement new features to showcase my evolving skillset.
