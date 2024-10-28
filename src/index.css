@@ -435,7 +435,7 @@ button[type="submit"] {
         flex-direction: row;
         justify-content: space-around;
         height: 600px;
-        padding: 120px 2%;
+        padding: 120px 5%;
     }
 
     .hero-text {
