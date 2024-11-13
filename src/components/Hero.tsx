@@ -2,6 +2,7 @@ import picture from "../assets/jaime-contemprato.jpg";
 import htmlLogo from "../assets/html-5-logo.svg";
 import cssLogo from "../assets/css-3-logo.svg";
 import jsLogo from "../assets/javascript-logo.svg";
+import tsLogo from "../assets/typescript-logo.svg";
 import reactLogo from "../assets/react-logo.svg";
 
 function Hero() {
@@ -25,6 +26,7 @@ function Hero() {
             <img className="techImg" src={htmlLogo} alt="HTML logo"></img>
             <img className="techImg" src={cssLogo} alt="CSS logo"></img>
             <img className="techImg" src={jsLogo} alt="JavaScript logo"></img>
+            <img className="techImg" src={tsLogo} alt="React logo"></img>
             <img className="techImg" src={reactLogo} alt="React logo"></img>
           </div>
         </div>

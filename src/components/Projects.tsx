@@ -17,6 +17,12 @@ function Projects() {
           description="A Multi-page Space Tourism Website made using HTML, CSS and JavaScript"
           link="https://jaime-cont.github.io/space-tourism-website/"
         />
+        <ProjectComponent
+          image="https://raw.githubusercontent.com/Jaime-Cont/rock-paper-scissors-app/refs/heads/main/screenshots/RPS-Desktop.PNG"
+          title="Rock, Paper, Scissors App"
+          description="A Responsive Rock, Paper, Scissors and Rock, Paper, Scissors, Lizard, Spock App made using HTML, CSS, JavaScript, Typescript and React"
+          link="https://jaime-cont.github.io/rock-paper-scissors-app/"
+        />
       </div>
       <hr></hr>
     </>
