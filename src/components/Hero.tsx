@@ -26,7 +26,7 @@ function Hero() {
             <img className="techImg" src={htmlLogo} alt="HTML logo"></img>
             <img className="techImg" src={cssLogo} alt="CSS logo"></img>
             <img className="techImg" src={jsLogo} alt="JavaScript logo"></img>
-            <img className="techImg" src={tsLogo} alt="React logo"></img>
+            <img className="techImg" src={tsLogo} alt="TypeScript logo"></img>
             <img className="techImg" src={reactLogo} alt="React logo"></img>
           </div>
         </div>
